@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 const Welcome = () => {
 
   return(
@@ -11,8 +12,8 @@ const Welcome = () => {
       </p>
       <button>Conocenos</button>
       <button>Ayudanos</button>
-      <button>Quiero ir</button>
-      <button >Compromiso Social Estudiantil UNC</button>
+      <button>Anotarme</button>
+      <Link to="/login">Compromiso Social Estudiantil UNC</Link>
 
     </div>
   </>
