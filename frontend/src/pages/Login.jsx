@@ -10,7 +10,7 @@ const Login = () => {
       <input type="text" placeholder="Usuario" />
       <input type="password" placeholder="Contraseña" />
       <button>Iniciar sesion</button>
-      <p>¿No tienes cuenta? <a href="#">Registrate</a></p>  
+      <p>¿No tienes cuenta? <a href="/Signup">Registrate</a></p>  
     </div>
     </>
   )

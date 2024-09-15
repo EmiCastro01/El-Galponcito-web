@@ -11,12 +11,14 @@ const Welcome = () => {
         ayudamos a pequeñitos con educacion blabla
       </p>
       <button>Conocenos</button>
-      <button>Ayudanos</button>
+      <button>Como ayudar</button>
       <button>Anotarme</button>
-      <Link to="/login">Compromiso Social Estudiantil UNC</Link>
+      <Link to="/CSEInstructive">Compromiso Social Estudiantil UNC</Link>
+      <Link to="/login">Iniciar sesion</Link>
 
     </div>
   </>
+  
   )
   
 }
